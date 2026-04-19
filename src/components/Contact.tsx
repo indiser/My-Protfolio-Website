@@ -75,7 +75,7 @@ export default function Contact() {
           <motion.a
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            href="mailto:contact@indiser.dev"
+            href="mailto:@indiser01@gmail.com"
             className="group inline-flex items-center gap-3 px-10 py-4 text-sm font-semibold tracking-wide rounded-xl transition-all duration-300 mb-14"
             style={{
               background: "linear-gradient(135deg, #c9a96e, #a8873c)",
