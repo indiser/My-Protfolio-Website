@@ -25,8 +25,8 @@ const socials = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:contact@indiser.dev",
-    handle: "contact@indiser.dev",
+    href: "mailto:indiser01@gmail.com",
+    handle: "indiser01@gmail.com",
   },
 ];
 
