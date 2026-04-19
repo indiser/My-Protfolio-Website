@@ -1,4 +1,4 @@
-import { getProjects } from '@/data/projects';
+import { getProjects, type Project } from '@/data/projects';
 import { getRepoStats } from "@/lib/github";
 import ProjectCard from "./ProjectCard";
 
@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 export default async function WorkGrid() {
   const projects = await getProjects();
   const projectsWithStats = await Promise.all(
-    projects.map(async (project) => {
+    projects.map(async (project: Project) => {
       const stats = await getRepoStats(project.repoName);
       return { ...project, stats };
     })
